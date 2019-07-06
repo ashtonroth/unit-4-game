@@ -1,0 +1,81 @@
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlqkT40DBLJ-d5lrfMWeTWKZ9DpsMkC8ibP9ahzsUjySk0JSY5);
+    
+}
+.header{
+    padding: 10px ; 
+    background-color: tan; 
+    text-align: center; 
+    font-size: 40px; 
+    font-family: 'Satisfy', cursive;
+    margin-left: 33%;
+    margin-right: 37% ; 
+}
+.instructions{
+    background-color: purple ; 
+    border-color: white ; 
+    border-style: solid ; 
+    border-width: 2px ; 
+    margin-left: 33% ; 
+    margin-right: 37% ; 
+    text-align: center; 
+    color: white ;
+    
+}
+h3{
+    text-decoration: underline; 
+    
+}
+.numberToMatch{
+    margin-left: 17.5%; 
+    background-color: aqua ; 
+    margin-left: 33% ; 
+    margin-right: 37% ; 
+    padding: 20px ; 
+    text-align: center; 
+    font-family: 'Satisfy';
+    color: purple ; 
+}
+.Results  {
+     
+    background-color: white ;
+    margin-left: 33% ; 
+    margin-right: 37% ;
+    padding: 15px ;  
+    text-align: center; 
+    
+}
+.gems{
+    padding: 5px; 
+    margin-left: 17.5%; 
+}
+.userTotal{
+    background-color: purple; 
+    color: white; 
+    text-align:center; 
+    margin-left: 33%; 
+    margin-right: 37% ; 
+    padding: 10px ; 
+}
+@media (max-width: 640px){
+    .instructions{
+        font-size: 10px ; 
+    }
+    .numberToMatch{
+        padding: 5px ; 
+    
+    }
+    .Results{
+        padding: 5px ; 
+    }
+    .userTotal{
+        padding: 5px ; 
+    }
+    .gems{
+        padding: 1px ; 
+    }
+    .header{
+        margin: 0px ; 
+        font-size: 20px  ; 
+    }
+}
